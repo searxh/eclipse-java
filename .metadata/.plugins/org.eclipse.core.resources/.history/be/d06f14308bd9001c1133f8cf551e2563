@@ -1,0 +1,37 @@
+
+public class Modulo {
+	static int size = 11;
+	static int maxCol = 5;
+	public static void main(String [] args) {
+		linear(hash(5));
+		quadratic(hash(5));
+		doubleH(hash(5),hash2(5));
+	}
+	public static int hash(int x) {
+		return x%size;
+	}
+	public static int hash2(int x) {
+		return 3-(x%3);
+	}
+	public static void linear(int hash) {
+		System.out.println("\nLinear Probing");
+		for (int i = 0; i <= maxCol; i++) {
+			int val = hash+i;
+			System.out.println("i="+i+": "+val%size);
+		}
+	}
+	public static void quadratic(int hash) {
+		System.out.println("\nQuadratic Probing");
+		for (int i = 0; i <= maxCol; i++) {
+			int val = hash+(i*i);
+			System.out.println("i="+i+": "+val%size);
+		}
+	}
+	public static void doubleH(int hash, int hash2) {
+		System.out.println("\nDouble Hashing");
+		for (int i = 0; i <= maxCol; i++) {
+			int val = hash+i*(hash2);
+			System.out.println("i="+i+": "+val%size);
+		}
+	}
+}

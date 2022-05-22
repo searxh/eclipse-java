@@ -1,0 +1,10 @@
+
+public class Modulo {
+	public static void main(String [] args) {
+		modulo(5,2);
+		
+	}
+	public static void modulo(int a, int b) {
+		System.out.println(a+"%"+b+": "+a%b);
+	}
+}

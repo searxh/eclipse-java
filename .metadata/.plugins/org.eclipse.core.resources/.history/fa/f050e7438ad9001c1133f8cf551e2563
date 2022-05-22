@@ -1,0 +1,18 @@
+
+public class Modulo {
+	public static void main(String [] args) {
+		modulo(13,11);
+		
+	}
+	public static int modulo(int a, int b) {
+		return a%b;
+	}
+	public static void linear(int hash, int size, int maxCol) {
+		for (int i = 0; i < maxCol; i++) {
+			int val = hash+i;
+			System.out.println("i="+i+": "+val%size);
+		}
+		
+		
+	}
+}

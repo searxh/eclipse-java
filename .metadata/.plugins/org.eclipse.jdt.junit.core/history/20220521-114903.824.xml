@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Rerun AVLTreeTest" project="Practice - Lab9 - AVLTree" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="AVLTreeTest" time="0.0">
+    <testcase name="testIsAVL" classname="AVLTreeTest" time="0.0"/>
+    <testcase name="testSame" classname="AVLTreeTest" time="0.0"/>
+    <testcase name="testMakeAVL" classname="AVLTreeTest" time="0.0"/>
+  </testsuite>
+</testrun>

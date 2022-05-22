@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Rerun testTwoData()" project="Practice - Hw9 - Heap" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="TestIsHeap" time="0.015" uniqueid="[engine:junit-jupiter]/[class:TestIsHeap]">
+    <testcase name="testTwoData" classname="TestIsHeap" time="0.015" displayname="testTwoData()" uniqueid="[engine:junit-jupiter]/[class:TestIsHeap]/[method:testTwoData()]"/>
+  </testsuite>
+</testrun>

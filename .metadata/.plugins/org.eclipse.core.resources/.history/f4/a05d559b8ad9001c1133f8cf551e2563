@@ -1,0 +1,29 @@
+
+public class Modulo {
+	static int size = 11;
+	static int maxCol = 5;
+	public static void main(String [] args) {
+		linear(hash(5));
+	}
+	public static int hash(int a) {
+		return a%size;
+	}
+	public static void linear(int hash) {
+		for (int i = 0; i <= maxCol; i++) {
+			int val = hash+i;
+			System.out.println("i="+i+": "+val%size);
+		}
+	}
+	public static void quadratic(int hash) {
+		for (int i = 0; i <= maxCol; i++) {
+			int val = hash+(i*i);
+			System.out.println("i="+i+": "+val%size);
+		}
+	}
+	public static void doubleH(int hash) {
+		for (int i = 0; i <= maxCol; i++) {
+			int val = hash+i;
+			System.out.println("i="+i+": "+val%size);
+		}
+	}
+}

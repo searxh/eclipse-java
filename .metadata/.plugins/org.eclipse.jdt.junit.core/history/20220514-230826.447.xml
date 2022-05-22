@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Rerun testSortListEvenData()" project="Hw8" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="CDLinkedListTest" time="0.016" uniqueid="[engine:junit-jupiter]/[class:CDLinkedListTest]">
+    <testcase name="testSortListEvenData" classname="CDLinkedListTest" time="0.016" displayname="testSortListEvenData()" uniqueid="[engine:junit-jupiter]/[class:CDLinkedListTest]/[method:testSortListEvenData()]"/>
+  </testsuite>
+</testrun>

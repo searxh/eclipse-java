@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestBSTRecursive (2)" project="Practice - Lab8 - BSTrecursive" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="TestBSTRecursive" time="0.0">
+    <testcase name="testNumNodesLessThan" classname="TestBSTRecursive" time="0.0"/>
+    <testcase name="testNumLeavesLessThan" classname="TestBSTRecursive" time="0.0"/>
+    <testcase name="testInsertInOrder" classname="TestBSTRecursive" time="0.0"/>
+    <testcase name="testNextOf" classname="TestBSTRecursive" time="0.0"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Rerun TestIsHeap" project="Practice - Hw9 - Heap" tests="7" started="7" failures="0" errors="0" ignored="0">
+  <testsuite name="TestIsHeap" time="0.02" uniqueid="[engine:junit-jupiter]/[class:TestIsHeap]">
+    <testcase name="testGeneralHeap2" classname="TestIsHeap" time="0.014" displayname="testGeneralHeap2()" uniqueid="[engine:junit-jupiter]/[class:TestIsHeap]/[method:testGeneralHeap2()]"/>
+    <testcase name="testOneData" classname="TestIsHeap" time="0.001" displayname="testOneData()" uniqueid="[engine:junit-jupiter]/[class:TestIsHeap]/[method:testOneData()]"/>
+    <testcase name="testTwoData" classname="TestIsHeap" time="0.001" displayname="testTwoData()" uniqueid="[engine:junit-jupiter]/[class:TestIsHeap]/[method:testTwoData()]"/>
+    <testcase name="testEmpty" classname="TestIsHeap" time="0.0" displayname="testEmpty()" uniqueid="[engine:junit-jupiter]/[class:TestIsHeap]/[method:testEmpty()]"/>
+    <testcase name="testGeneralHeap" classname="TestIsHeap" time="0.0" displayname="testGeneralHeap()" uniqueid="[engine:junit-jupiter]/[class:TestIsHeap]/[method:testGeneralHeap()]"/>
+    <testcase name="testGeneralNonHeap" classname="TestIsHeap" time="0.0" displayname="testGeneralNonHeap()" uniqueid="[engine:junit-jupiter]/[class:TestIsHeap]/[method:testGeneralNonHeap()]"/>
+    <testcase name="testGeneralNonHeap2" classname="TestIsHeap" time="0.001" displayname="testGeneralNonHeap2()" uniqueid="[engine:junit-jupiter]/[class:TestIsHeap]/[method:testGeneralNonHeap2()]"/>
+  </testsuite>
+</testrun>

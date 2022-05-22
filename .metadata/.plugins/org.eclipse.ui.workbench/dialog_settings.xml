@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ZipFile"/>
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.jdt.internal.ui.jarpackager.JarPackageWizard"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.equinox.p2.category"/>
+			<item value="org.eclipse.jdt.ui.Java"/>
+		</list>
+	</section>
+	<section name="ZipFileImportWizard">
+		<item key="WizardZipFileResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
+		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="/Users/search/Downloads/additionalExercises-1291-16509728065103/Lab12Heap/Lab12Student.jar"/>
+			<item value="/Users/search/Downloads/additionalExercises-1291-16509728065103/AVL Tree/AVL_student.jar"/>
+			<item value="/Users/search/Downloads/additionalExercises-1291-16509728065103/Lab08_BST_Recursive/Lab08Student.jar"/>
+			<item value="/Users/search/Downloads/6338067021_Lab12_Heap-480235-16514191362178.jar"/>
+			<item value="/Users/search/Downloads/DATA STRUC LAB/Lab12Heap_6262469839dfa/Lab12Student.jar"/>
+			<item value="/Users/search/Downloads/6338067021_Lab10-480235-16492314006321.jar"/>
+			<item value="/Users/search/Downloads/DATA STRUC LAB/Lab10_62469858aa4b2/Lab10Student.jar"/>
+			<item value="/Users/search/Downloads/6338067021_Lab09_AVL-480235-16485611174834.jar"/>
+			<item value="/Users/search/Downloads/AVL Tree_623d39f69ac29/AVL_student.jar"/>
+			<item value="/Users/search/Downloads/6338067021_Lab08_BSTRecursive-480235-16478679675243.jar"/>
+			<item value="/Users/search/Downloads/6338067021_Lab08_BSTRecursive.jar"/>
+			<item value="/Users/search/Downloads/Lab07 BST_6218710a0c7f9/Lab07Student.jar"/>
+			<item value="/Users/search/Downloads/Lab08_62341dfff3ef4/Lab08Student.jar"/>
+		</list>
+	</section>
+	<section name="ZipFileExportWizard">
+	</section>
+</section>

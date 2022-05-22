@@ -1,0 +1,55 @@
+import java.util.Random;
+
+public class ArraySorting {
+	public static void main(String [] args) {
+		
+		int n=25000;
+		
+		int [] array = new int[n];
+		Random rnd = new Random(1234567);
+		for (int i=0; i < n; i++) {
+			array[i] = rnd.nextInt(n);
+		}
+		System.out.println("sorting...");
+		long startTime = System.nanoTime();
+		sort(array);
+		long endTime = System.nanoTime();
+		printer(array); //prints sorted
+		System.out.println("time taken: "+((endTime-startTime)/1e9)+" seconds");
+		
+	}
+	public static void sort(int [] d) {
+		mergeSort(d);
+	}
+	public static void mergeSort(int[] d) {
+	    mergeSortR(d, 0, d.length - 1, d.clone());
+	  }
+	public static void mergeSortR(int[] d, int left, int right, int[] t) {
+		if (left < right) {
+			int m = left + (right - left) / 2;
+			mergeSortR(t, left, m, d);
+			mergeSortR(t, m + 1, right, d);
+			merge(t, left, m, right, d);
+	    }
+	}
+	public static void merge(int[] d, int left, int mid, int right, int[] t) {
+		int i = left, j = mid + 1;
+		int k = left;
+		while (i <= mid && j <= right) {
+	      t[k++] = d[i] < d[j] ? d[i++] : d[j++];
+	    }
+	    while (i <= mid) {
+	      t[k++] = d[i++];
+	    }
+	    while (j <= right) {
+	      t[k++] = d[j++];
+	    }
+	}
+	public static void printer(int[] arr) {
+		System.out.println("Array: ");
+		for (int i = 0; i < arr.length; i++) {
+			System.out.print(arr[i]+",");
+		}
+		System.out.println("");
+	}
+}

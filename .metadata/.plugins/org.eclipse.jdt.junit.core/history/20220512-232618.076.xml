@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Rerun CDLinkedListTest" project="Hw8" tests="7" started="7" failures="0" errors="0" ignored="0">
+  <testsuite name="CDLinkedListTest" time="0.03" uniqueid="[engine:junit-jupiter]/[class:CDLinkedListTest]">
+    <testcase name="testSortListAlreadySorted" classname="CDLinkedListTest" time="0.019" displayname="testSortListAlreadySorted()" uniqueid="[engine:junit-jupiter]/[class:CDLinkedListTest]/[method:testSortListAlreadySorted()]"/>
+    <testcase name="testSortListOddDataReverse" classname="CDLinkedListTest" time="0.003" displayname="testSortListOddDataReverse()" uniqueid="[engine:junit-jupiter]/[class:CDLinkedListTest]/[method:testSortListOddDataReverse()]"/>
+    <testcase name="testSortListOddData" classname="CDLinkedListTest" time="0.001" displayname="testSortListOddData()" uniqueid="[engine:junit-jupiter]/[class:CDLinkedListTest]/[method:testSortListOddData()]"/>
+    <testcase name="testSortEmptyList" classname="CDLinkedListTest" time="0.001" displayname="testSortEmptyList()" uniqueid="[engine:junit-jupiter]/[class:CDLinkedListTest]/[method:testSortEmptyList()]"/>
+    <testcase name="testSortListEvenData" classname="CDLinkedListTest" time="0.001" displayname="testSortListEvenData()" uniqueid="[engine:junit-jupiter]/[class:CDLinkedListTest]/[method:testSortListEvenData()]"/>
+    <testcase name="testSortListOneData" classname="CDLinkedListTest" time="0.0" displayname="testSortListOneData()" uniqueid="[engine:junit-jupiter]/[class:CDLinkedListTest]/[method:testSortListOneData()]"/>
+    <testcase name="testSortListEvenDataReverse" classname="CDLinkedListTest" time="0.001" displayname="testSortListEvenDataReverse()" uniqueid="[engine:junit-jupiter]/[class:CDLinkedListTest]/[method:testSortListEvenDataReverse()]"/>
+  </testsuite>
+</testrun>
